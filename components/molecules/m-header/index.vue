@@ -1,3 +1,31 @@
 <template src="./m-header.pug" lang="pug"></template>
 <script src="./m-header.js"></script>
-<style src="./m-header.scss" lang="scss" scoped></style>
+
+<style lang="scss" scoped>
+.o-header {
+  @apply flex flex-1 flex-no-wrap justify-between;
+  height: 58px;
+
+  &__logo {
+    .is-search & {
+      display: none;
+    }
+  }
+
+  &__action {
+    @apply self-center;
+
+    .is-search & {
+      @apply w-full;
+    }
+  }
+}
+
+.c-header {
+  @apply py-3 px-4;
+
+  &.is-search {
+    @apply py-2;
+  }
+}
+</style>
