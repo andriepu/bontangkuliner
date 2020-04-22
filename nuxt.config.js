@@ -53,6 +53,19 @@ export default {
   ** Build configuration
   */
   build: {
+    extractCSS: true,
+    optimization: {
+      splitChunks: {
+        cacheGroups: {
+          styles: {
+            name: 'styles',
+            test: /\.(s?css|vue)$/,
+            chunks: 'all',
+            enforce: true,
+          },
+        },
+      },
+    },
     /*
     ** You can extend webpack config here
     */
