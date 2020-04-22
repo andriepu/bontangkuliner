@@ -1,6 +1,6 @@
 .c-product
   .c-product__image-wrapper
-    a(:href='product.href'): img.c-product__image(:src='product.image')
+    a(:href='product.href' @click.prevent.stop): img.c-product__image(:src='product.image')
 
   .c-product__text-wrapper
     h4.c-product__text {{ product.name }}
