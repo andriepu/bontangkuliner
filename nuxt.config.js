@@ -1,3 +1,5 @@
+import { resolve } from 'path';
+
 export default {
   mode: 'universal',
   /*
@@ -23,8 +25,8 @@ export default {
   ** Global CSS
   */
   css: [
-    'tiny-slider/dist/tiny-slider.css',
     '~/assets/css/tailwind.css',
+    '~/assets/css/tiny-slider.css',
   ],
   /*
   ** Plugins to load before mounting the App
@@ -54,18 +56,6 @@ export default {
   */
   build: {
     extractCSS: true,
-    optimization: {
-      splitChunks: {
-        cacheGroups: {
-          styles: {
-            name: 'styles',
-            test: /\.(s?css|vue)$/,
-            chunks: 'all',
-            enforce: true,
-          },
-        },
-      },
-    },
     /*
     ** You can extend webpack config here
     */

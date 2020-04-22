@@ -5,19 +5,19 @@
 .o-header {
   @apply flex flex-1 flex-no-wrap justify-between;
   height: 58px;
+}
 
-  &__logo {
-    .is-search & {
-      display: none;
-    }
+.o-header__logo {
+  .is-search & {
+    display: none;
   }
+}
 
-  &__action {
-    @apply self-center;
+.o-header__action {
+  @apply self-center;
 
-    .is-search & {
-      @apply w-full;
-    }
+  .is-search & {
+    @apply w-full;
   }
 }
 

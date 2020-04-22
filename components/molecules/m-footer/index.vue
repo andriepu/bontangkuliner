@@ -7,11 +7,11 @@
   @apply text-gray-300 bg-gray-900;
   @apply w-full;
   height: 96px;
+}
 
-  &__copyright {
-    @apply self-center;
-    @apply text-sm;
-    @apply text-center;
-  }
+.c-footer__copyright {
+  @apply self-center;
+  @apply text-sm;
+  @apply text-center;
 }
 </style>
