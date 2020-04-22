@@ -1,0 +1,6 @@
+.c-main-banner
+  no-ssr: vue-tiny-slider(v-bind='tinySliderOptions')
+    template(v-for='banner in banners')
+      div: a(:href='banner.href')
+        img.c-main-banner__img(:src='banner.image')
+        h3.c-main-banner__text {{ banner.text }}

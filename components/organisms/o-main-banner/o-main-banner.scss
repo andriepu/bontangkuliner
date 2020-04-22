@@ -1,0 +1,10 @@
+.c-main-banner {
+  &__img {
+    @apply w-full;
+  }
+
+  &__text {
+    @apply mt-5;
+    @apply text-xl text-center;
+  }
+}

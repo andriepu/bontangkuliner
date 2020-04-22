@@ -1,0 +1,13 @@
+.c-searchbox(:class='{ "is-search" : isSearch }')
+  input.c-searchbox__input(
+    v-model='q'
+    ref='input'
+    placeholder='Search'
+    @blur='onInputBlurred'
+    )
+
+  .c-searchbox__icon-suffix(@click='onCloseClicked')
+    x-circle-icon(size='18')
+
+  .c-searchbox__icon-prefix(@click='onTriggerClicked')
+    search-icon(:size='iconSize')
