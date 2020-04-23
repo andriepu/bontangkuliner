@@ -1,6 +1,8 @@
+import shuffle from 'shuffle-array';
+
 export default {
   products (state) {
-    const products = [...state.topProducts, ...state.products];
+    const products = [...shuffle(state.topProducts), ...shuffle(state.products)];
 
     return !state.isSearch || !state.filter
       ? products

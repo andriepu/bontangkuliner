@@ -1,10 +1,8 @@
-import shuffle from 'shuffle-array';
-
 export default {
   isSearch: false,
   filter: '',
 
-  banners: shuffle([
+  banners: [
     {
       href: 'https://toko.ly/dimsumjuarabtg',
       image: '/images/merchants/ayam-kremes-juara.jpg',
@@ -30,9 +28,9 @@ export default {
       image: '/images/merchants/FRESHMILK_THAITEA_FA-02.png',
       name: 'FRESHMILK THAITEA',
     },
-  ]),
+  ],
 
-  topProducts: shuffle([
+  topProducts: [
     {
       href: 'https://toko.ly/dimsumjuarabtg',
       image: '/images/merchants/ayam-kremes-juara.jpg',
@@ -48,9 +46,9 @@ export default {
       image: '/images/merchants/takoichi.jpg',
       name: 'Takoichi',
     },
-  ]),
+  ],
 
-  products: shuffle([
+  products: [
     {
       href: undefined,
       image: '/images/merchants/telor-gulung.jpg',
@@ -61,5 +59,5 @@ export default {
       image: '/images/merchants/FRESHMILK_THAITEA_FA-02.png',
       name: 'FRESHMILK THAITEA',
     },
-  ]),
+  ],
 };
