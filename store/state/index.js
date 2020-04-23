@@ -21,6 +21,10 @@ export default {
       href: undefined,
       image: '/images/merchants/telor-gulung.jpg',
       text: 'Telor Gulung',
+    },{
+      href: undefined,
+      image: '/images/merchants/FRESHMILK_THAITEA_FA-02.png',
+      name: 'FRESHMILK THAITEA',
     },
   ]),
 
