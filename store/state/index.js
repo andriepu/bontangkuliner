@@ -22,16 +22,13 @@ export default {
       image: '/images/merchants/telor-gulung.jpg',
       text: 'Telor Gulung',
     },{
-      href: undefined,
+      href: 'https://instagram.com/freshmilk.bontang?igshid=qewcssxkgixp',
       image: '/images/merchants/FRESHMILK_THAITEA_FA-02.png',
       name: 'FRESHMILK THAITEA',
     },
   ]),
 
   topProducts: shuffle([
-  ]),
-
-  products: shuffle([
     {
       href: 'https://toko.ly/dimsumjuarabtg',
       image: '/images/merchants/ayam-kremes-juara.jpg',
@@ -44,12 +41,16 @@ export default {
       href: undefined,
       image: '/images/merchants/takoichi.jpg',
       name: 'Takoichi',
-    }, {
+    },
+  ]),
+
+  products: shuffle([
+     {
       href: undefined,
       image: '/images/merchants/telor-gulung.jpg',
       name: 'Telor Gulung',
     },{
-      href: undefined,
+      href: 'https://instagram.com/freshmilk.bontang?igshid=qewcssxkgixp',
       image: '/images/merchants/FRESHMILK_THAITEA_FA-02.png',
       name: 'FRESHMILK THAITEA',
     },
