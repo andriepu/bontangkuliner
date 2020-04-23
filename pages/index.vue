@@ -1,5 +1,5 @@
 <template lang="pug">
-  .p-home
+  .p-home(:class='{ "is-search": isSearch }')
     .p-home__top: o-main-banner
     .p-home__center
       m-section-title(title='Merchants')
@@ -7,6 +7,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import MSectionTitle from '~/components/molecules/m-section-title';
 import OMainBanner from '~/components/organisms/o-main-banner';
 import OProductList from '~/components/organisms/o-product-list';
@@ -17,6 +18,9 @@ export default {
     OMainBanner,
     OProductList,
   },
+  computed: {
+    ...mapState(['isSearch']),
+  },
 };
 </script>
 
@@ -26,6 +30,16 @@ export default {
 
   > * {
     @apply mb-16;
+  }
+}
+
+.p-home__top {
+  @apply transition-all duration-500 ease-out;
+
+  .is-search & {
+    @apply mb-0;
+    @apply opacity-0 pointer-events-none;
+    height: 0;
   }
 }
 </style>

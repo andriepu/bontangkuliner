@@ -23,6 +23,7 @@
 
 .c-header {
   @apply py-3 px-4;
+  @apply border-b-2 border-solid border-red-600;
 
   &.is-search {
     @apply py-2;
