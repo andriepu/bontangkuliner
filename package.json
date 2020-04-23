@@ -14,8 +14,8 @@
   "dependencies": {
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "lodash.shuffle": "^4.2.0",
     "nuxt": "^2.0.0",
+    "shuffle-array": "^1.0.1",
     "vue-feather-icons": "^5.0.0",
     "vue-icon": "^2.1.2",
     "vue-tiny-slider": "^0.1.39"
