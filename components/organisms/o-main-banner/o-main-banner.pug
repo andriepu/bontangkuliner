@@ -1,5 +1,5 @@
 .c-main-banner
-  no-ssr: vue-tiny-slider(v-bind='tinySliderOptions')
+  client-only: vue-tiny-slider(v-bind='tinySliderOptions')
     template(v-for='banner in banners')
       div: a(:href='banner.href' target='_blank')
         img.c-main-banner__img(:src='banner.image')
