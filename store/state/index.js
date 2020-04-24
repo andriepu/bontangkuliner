@@ -15,11 +15,6 @@ export default {
     },
     {
       href: undefined,
-      image: '/images/merchants/takoichi.jpg',
-      text: 'Takoichi',
-    },
-    {
-      href: undefined,
       image: '/images/merchants/telor-gulung.jpg',
       text: 'Telor Gulung',
     },
@@ -40,11 +35,6 @@ export default {
       href: 'https://toko.ly/dimsumjuarabtg',
       image: '/images/merchants/dimsum-juara.jpg',
       name: 'Dimsum Juara',
-    },
-    {
-      href: undefined,
-      image: '/images/merchants/takoichi.jpg',
-      name: 'Takoichi',
     },
   ],
 
