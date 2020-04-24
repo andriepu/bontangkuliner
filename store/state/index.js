@@ -56,8 +56,13 @@ export default {
     },
     {
       href: 'https://www.instagram.com/ala_ibuaya/',
-      image: 'static/images/merchants/ala bu aya.jpg',
-      name: 'Tumben Masak',
+      image: '/images/merchants/ala bu aya.jpg',
+      name: 'Ala Ibu Aya',
+    },
+    {
+      href: 'https://gemarrempah.com/',
+      image: '/images/merchants/gemar rempah.jpg',
+      name: 'Gemar Rempah',
     },
   ],
 };
