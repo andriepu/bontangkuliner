@@ -49,5 +49,10 @@ export default {
       image: '/images/merchants/FRESHMILK_THAITEA_FA-02.png',
       name: 'FRESHMILK THAITEA',
     },
+    {
+      href: 'https://bit.ly/30J28Rp',
+      image: '/images/merchants/tumben masak.jpg',
+      name: 'Tumben Masak',
+    },
   ],
 };
