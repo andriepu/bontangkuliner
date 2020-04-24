@@ -54,5 +54,10 @@ export default {
       image: '/images/merchants/tumben masak.jpg',
       name: 'Tumben Masak',
     },
+    {
+      href: 'https://www.instagram.com/ala_ibuaya/',
+      image: 'static/images/merchants/ala bu aya.jpg',
+      name: 'Tumben Masak',
+    },
   ],
 };
